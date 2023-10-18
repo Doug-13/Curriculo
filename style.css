@@ -104,55 +104,56 @@ td:hover {
         text-align: center;
 }
 
-
 @media screen and (max-width: 480px) {
         body {
                 background: rgb(35, 36, 0);
                 background: linear-gradient(90deg, rgba(35, 36, 0, 1) 0%, rgba(13, 245, 137, 1) 17%, rgba(0, 212, 255, 1) 100%);
         }
-        header {        
-                
+
+        header {
                 margin: 0rem;
                 border-radius: 0.5REM;
-                
         }
 
-        h1{
+        .Escolaridade,
+        .Cursos,
+        .Experiencias {
+                font-size: 12px;
+
+        }
+
+        h1 {
                 font-size: 17px;
         }
+
         p {
                 font-size: 10px;
         }
 
-        table{
-                font-size:10px;
-        }
-
-        h2 {
+        table {
                 font-size: 10px;
         }
 
-        h3 {
-                font-size: 7px;
+        h2 {
+                font-size: 12px;
         }
 
-        /* head{
-                display:block;
-                grid-template-columns: 10rem 1fr;
-
-        } */
+        h3 {
+                font-size: 11px;
+        }
 
         img {
                 width: 3rem;
                 border-radius: 50%;
         }
+
         .Whats {
                 width: 3rem;
                 position: fixed;
                 bottom: 30px;
                 right: 20px
         }
-        
+
         .Whats:hover {
                 width: 4rem;
                 position: fixed;
@@ -160,17 +161,12 @@ td:hover {
                 right: 20px
         }
 }
+
 @media screen and (max-width: 800px) {
-       
-        header {        
-                
+        header {
                 margin: 0rem;
                 border-radius: 0.5REM;
-                
         }
-
-
-     
 }
 
 
