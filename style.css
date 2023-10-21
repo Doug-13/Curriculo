@@ -1,6 +1,33 @@
+* {
+        margin: 0;
+        padding: 0
+}
+
+.topbar{
+        background-color: white;
+}
+
+
+
 body {
         background: rgb(35, 36, 0);
         background: linear-gradient(90deg, rgba(35, 36, 0, 1) 0%, rgba(13, 245, 137, 1) 17%, rgba(0, 212, 255, 1) 100%);
+}
+
+button {
+        /* border: none; */
+        /* color: white; */
+        float: right;
+        padding: 10px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 13px;
+        color: white;
+        background-color: rgb(32, 24, 24);
 }
 
 h1,
@@ -9,6 +36,7 @@ p,
 table {
         font-family: 'Roboto', sans-serif;
         text-align: justify;
+        color: black;
 }
 
 h2 {
@@ -32,7 +60,10 @@ header {
         background-color: rgb(250, 235, 215, 0.3);
         border: 2px solid rgb(255, 255, 255);
         padding: 1rem;
-        margin: 4rem;
+        margin-top: 2rem;
+        margin-left: 4rem;
+        margin-right: 4REM;
+        margin-bottom: 2REM;
         border-radius: 1REM;
 }
 
