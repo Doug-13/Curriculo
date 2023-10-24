@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.topbar {
+    background-color:var(--background);
+}
+
+
+#head_SobreMim {
+
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* background-color: aliceblue; */
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+}
+
+
+#head_SobreMim img {
+    width: 16rem;
+    border-radius: 50%;
+    margin-left: 5rem;
+    margin-top: 6rem;
+    border: 10px solid var(--marcador)
+}
+
+.Apresentation {
+    /* background: #f6aa06; */
+    padding: 4rem;
+}
+
+p {
+    /* background: #f6aa06; */
+    margin-top: 12px;
+}

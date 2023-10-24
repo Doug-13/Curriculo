@@ -1,0 +1,121 @@
+#head_curriculo {
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+section{
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.secao2{
+    margin-left: 1rem;
+    
+}
+.secao2 h2{
+   font-size: 20px;
+   margin-left: 1rem;
+   margin-top: 15px;
+   font-weight: bold;
+}
+.secao2 h3{
+   font-size: 15px;
+   margin-left: 3rem;
+   font-weight: bold;
+}
+.secao2 h4{
+    font-size: 13px;
+    margin-left: 4rem;
+    margin-top: 10px;
+    font-weight: bold;
+ }
+.name {
+    font-size: 3rem;
+    align-items: justify;
+}
+
+.foto {
+    width: 16rem;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid var(--marcador)
+}
+
+.dadosPessoais {
+    background: black;
+    color: var(--texto);
+    padding: 3rem;
+    width: 60vh;
+    height: 93%;
+}
+
+.name {
+    color: var(--texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    margin-top: 1rem;
+    font-size: bold;
+    list-style: none;
+
+}
+
+.title {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 30px;
+    color: var(--marcador);
+}
+
+
+.container {
+    align-items: center;
+    display: flex;
+    color: var(--texto);
+    margin-bottom: 8px;
+
+}
+
+.container img {
+    width: 2rem;
+}
+
+.container p {
+    color: var(--texto);
+    margin-bottom: 9px;
+    margin-left: 9px;
+    font-size: bold;
+    margin-top: 1rem;
+
+}
+
+.title_2 {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    list-style: none;   
+    font-size: 30px;
+    color: var(--texto_black);
+}
+
+.line {
+    width: 29rem;
+    background: var(--texto_black);
+    height: 3px;
+    margin-left: -1rem;
+}
+
+
+.listAtiv li {
+    list-style:disc;
+    margin-left:6rem;
+    color: var(--texto_black);
+
+}

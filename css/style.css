@@ -1,0 +1,104 @@
+* {
+        margin: 0;
+        padding: 0
+}
+
+
+body {
+        background-color: var(--background);
+}
+
+
+h1,
+h2,
+p,
+table {
+        font-family: 'Roboto', sans-serif;
+        text-align: justify;
+        color: black;
+}
+
+h2 {
+        font-size: larger;
+        text-align: center;
+
+}
+
+h3 {
+        font-size: 15px;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+}
+
+img {
+        width: 6rem;
+        border-radius: 50%;
+}
+
+header {
+        /* background-color: rgb(250, 235, 215, 0.3); */
+        border: 2px solid rgb(255, 255, 255);
+        padding: 1rem;
+        margin-top: 2rem;
+        margin-left: 4rem;
+        margin-right: 4REM;
+        margin-bottom: 2REM;
+        border-radius: 1REM;
+}
+
+#head {
+        display: grid;
+        grid-template-columns: 10rem 1fr;
+        align-items: center;
+}
+
+#block {
+        background-color: rgba(255, 255, 255, 0.1);
+        padding-top: 1px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        margin-top: 2rem;
+        text-align: center;
+        border-radius: 1rem;
+}
+
+.Escolaridade,
+.Cursos,
+.Experiencias {
+        position: relative;
+        margin-top: 2rem;
+        font-size: larger;
+        text-align: center;
+
+}
+
+table {
+        /* color: beige; */
+        background-color: rgb(178, 220, 162, O.8);
+        width: 100%;
+        text-align: center;
+}
+
+tr,
+th,
+td {
+        border-bottom: 1px solid #ddd;
+
+}
+
+td:hover {
+        background-color: rgb(80, 138, 255);
+}
+
+
+#footer {
+        text-align: center;
+}
+
+
+
+
+
+
+

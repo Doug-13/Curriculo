@@ -1,0 +1,65 @@
+@media screen and (max-width: 480px) {
+    body {
+       
+        background-color: var(--background);
+
+    }
+
+    header {
+        margin: 0rem;
+        border-radius: 0.5REM;
+    }
+
+    .Escolaridade,
+    .Cursos,
+    .Experiencias {
+        font-size: 12px;
+
+    }
+
+    h1 {
+        font-size: 17px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    table {
+        font-size: 10px;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 11px;
+    }
+
+    img {
+        width: 3rem;
+        border-radius: 50%;
+    }
+
+    .Whats {
+        width: 3rem;
+        position: fixed;
+        bottom: 30px;
+        right: 20px
+    }
+
+    .Whats:hover {
+        width: 4rem;
+        position: fixed;
+        bottom: 30px;
+        right: 20px
+    }
+}
+
+@media screen and (max-width: 800px) {
+    header {
+            margin: 0rem;
+            border-radius: 0.5REM;
+    }
+}

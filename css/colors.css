@@ -1,0 +1,12 @@
+:root {
+    --background: aliceblue;
+    --box: rgb(250, 235, 215, 0.6);
+    /* --botton-hover: rgb(200, 137, 164);
+    --secondary: rgb(136, 127, 127);
+    --light: #f0f0f0;
+    --medium: #ffffff;
+    --dark: #f37e01; */
+    --texto: rgb(210, 202, 202);
+    --texto_black: rgb(31, 28, 28);
+    --marcador: #11ff00d0;
+}

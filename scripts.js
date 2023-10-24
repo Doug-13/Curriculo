@@ -14,52 +14,83 @@ const color_mode = () => {
     let h3 = document.querySelectorAll("h3");
     let table = document.querySelectorAll("table");
     let p = document.querySelectorAll("p");
-    // let text = document.getElementById("text");
+    let name = document.querySelectorAll(".name");
+    let title_2 = document.querySelectorAll(".title_2");
+    let line = document.querySelector(".line");
     let buttonText = document.getElementById("text");
     let button = document.getElementById("text");
+    let listas = document.querySelector(".listAtiv");
+   
+
+    // Olá Eduarda, boar tarde!
+    //   Entro em contato com você a pedido da Mika do SENAC, me apliquei a oportunidade de Suporte Técnico e tenho grande interesse em fazer parte da SKA, fico a disposição para falarmos.
 
     body.addEventListener("click", () => {
         if (buttonText.textContent === "Dark") {
             buttonText.textContent = "Light";
-            body.style.background = "linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(98,101,98,1) 100%)";
-            button.style.backgroundColor = "rgba(255, 255, 255, 1)";
-            button.style.color = "rgba(0, 0, 0, 1)";
+            body.style.background = "var(--texto_black)";
+            
+            button.style.backgroundColor = "var(--texto)";
+            button.style.color = "var(--texto_black)";
             h1.forEach((element) => {
-                element.style.color = "rgba(255, 255, 255, 1)";
+                element.style.color = "var(--texto)";
             });
             h2.forEach((element) => {
-                element.style.color = "rgba(255, 255, 255, 1)";
+                element.style.color = "var(--texto)";
             });
             h3.forEach((element) => {
-                element.style.color = "rgba(255, 255, 255, 1)";
+                element.style.color = "var(--texto)";
             });
             table.forEach((element) => {
-                element.style.color = "rgba(255, 255, 255, 1)";
+                element.style.color = "var(--texto)";
             });
             p.forEach((element) => {
-                element.style.color = "rgba(255, 255, 255, 1)";
+                element.style.color = "var(--texto)";
             });
+            name.forEach((element) => {
+                element.style.color = "var(--texto)";
+            });
+            title_2.forEach((element) => {
+                element.style.color = "var(--texto)";
+            });
+            line.style.backgroundColor="var(--texto)";
+
+            listas.forEach((element) => {
+                element.style.color = "var(--texto)";
+            });
+            
         } else {
             buttonText.textContent = "Dark";
-            body.style.background = "linear-gradient(90deg, rgba(35, 36, 0, 1) 0%, rgba(13, 245, 137, 1) 17%, rgba(0, 212, 255, 1) 100%)";
-            button.style.backgroundColor = "rgba(0, 0, 0, 1)";
+            body.style.background = "var(--background)";
+            button.style.backgroundColor = "var(--texto_black)";
+            line.style.backgroundColor="var(--texto_black)";
 
-            button.style.color = "rgba(255, 255, 255, 1)";
+            button.style.color = "var(--texto)";
             h1.forEach((element) => {
-                element.style.color = "rgba(0, 0, 0, 1)";
+                element.style.color = "var(--texto_black)";
             });
             h2.forEach((element) => {
-                element.style.color = "rgba(0, 0, 0, 1 )";
+                element.style.color = "var(--texto_black )";
             });
             h3.forEach((element) => {
-                element.style.color = "rgba(0, 0, 0, 1)";
+                element.style.color = "var(--texto)";
             });
             table.forEach((element) => {
-                element.style.color = "rgba(0, 0, 0, 1)";
+                element.style.color = "var(--texto_black)";
             });
             p.forEach((element) => {
-                element.style.color = "rgba(0, 0, 0, 1)";
+                element.style.color = "var(--texto_black)";
             });
+            name.forEach((element) => {
+                element.style.color = "var(--texto)";
+            });
+            title_2.forEach((element) => {
+                element.style.color = "var(--texto_black)";
+            });
+            line.forEach((element) => {
+                element.style.color = "var(--texto)";
+            });
+           
         }
     });
 };
